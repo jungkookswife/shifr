@@ -19,3 +19,6 @@ def caesar_decipher(encrypted_text, shift):
         else:
             decrypted_text += char
     return decrypted_text
+
+text = input("Введите текст: ")
+shift = int(input("Введите шаг сдвига: "))
